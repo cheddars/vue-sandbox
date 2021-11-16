@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <infinite-table></infinite-table>
+      <infinite-loading-table/>
   </div>
 </template>
 
 <script>
-import InfiniteTable from './components/InfiniteTable.vue'
+import InfiniteLoadingTable from './components/InfiniteLoadingTable.vue';
 
 export default {
   name: 'App',
   components: {
-    InfiniteTable
+    InfiniteLoadingTable
   }
 }
 </script>
