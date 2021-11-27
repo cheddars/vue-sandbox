@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import CoinAngelTable from '../components/CoinAngelTable.vue'
+import CoinAngelTable from '../components/CoinAngelSummaryTable.vue'
 
 export default {
   name: "VueBootsTable",

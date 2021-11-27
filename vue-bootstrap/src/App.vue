@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <vue-table-practice />
+    <draggable-list-practice></draggable-list-practice>
   </div>
 </template>
 
 <script>
 // import InfiniteTablePractice from './view/InfiniteTablePractice.vue'
-import VueTablePractice from './view/VueTablePractice.vue'
+import DraggableListPractice from './view/DraggableListPractice.vue'
 
 export default {
   name: 'App',
   components: {
    // InfiniteTablePractice, 
-    VueTablePractice
+    DraggableListPractice
   },
   data : () => {
     return {

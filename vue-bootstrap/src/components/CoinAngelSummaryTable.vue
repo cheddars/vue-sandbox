@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'CoinAngelTable',
+  name: 'CoinAngelSummaryTable',
   props: ['fields', 'items', 'fixHeight', 'fetchFunc'], 
   data() {
       return {
